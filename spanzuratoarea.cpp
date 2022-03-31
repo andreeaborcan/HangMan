@@ -180,6 +180,7 @@ public:
 					addGuessedLetter(character);
 					cout<<"Good guess!\n";
 					ui.clearScreen();
+					ui.drawHangman();
 					printWord();
 					cout<<"\n";
 					break;
